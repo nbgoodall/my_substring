@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/Nick/.nvm/versions/node/v12.3.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js dev
+
+PATH: 
+  /Users/Nick/.rbenv/shims:/Users/Nick/.rbenv/bin:/Users/Nick/.nvm/versions/node/v12.3.1/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/usr/local/go/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  12.3.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "svelte-app",
+    "version": "1.0.0",
+    "devDependencies": {
+      "rollup": "^1.12.0",
+      "rollup-plugin-commonjs": "^10.0.0",
+      "rollup-plugin-livereload": "^1.0.0",
+      "rollup-plugin-node-resolve": "^5.2.0",
+      "rollup-plugin-svelte": "^5.0.3",
+      "rollup-plugin-terser": "^5.1.2",
+      "svelte": "^3.0.0"
+    },
+    "dependencies": {
+      "sirv-cli": "^0.4.4"
+    },
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "start": "sirv public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c rollup -c -w
+  Directory: /Users/Nick/Projects/cassidoo/my_substring
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:200:13)
+      at maybeClose (internal/child_process.js:1021:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
